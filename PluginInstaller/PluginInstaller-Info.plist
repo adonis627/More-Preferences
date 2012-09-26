@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.hnist.PluginInstaller</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>PluginInstaller</string>
+	<key>CFBundleVersion</key>
+	<string>0.2</string>
+	<key>SMAuthorizedClients</key>
+	<array>
+		<string>identifier com.hnist.PluginInstaller and certificate leaf[subject.CN] = &quot;Andrew A.A.&quot;</string>
+	</array>
+</dict>
+</plist>

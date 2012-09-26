@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Uninstall Office 2011</key>
+	<dict>
+		<key>Script</key>
+		<string>Uninstall Office 2011</string>
+		<key>Associated Apps</key>
+		<array/>
+		<key>Description</key>
+		<string>Uninstalling Office 2011 for Mac</string>
+	</dict>
+	<key>Restore Launchpad</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.dock</string>
+		</array>
+		<key>Script</key>
+		<string>Restore Launchpad</string>
+		<key>Description</key>
+		<string>Resetting Launchpad menus</string>
+	</dict>
+</dict>
+</plist>

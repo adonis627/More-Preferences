@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Dashboard</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.dock</string>
+		</array>
+		<key>Bundle Identifier</key>
+		<string>com.apple.dashboard</string>
+	</dict>
+	<key>Dock</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.dock</string>
+		</array>
+		<key>Bundle Identifier</key>
+		<string>com.apple.dock</string>
+	</dict>
+	<key>Finder</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.finder</string>
+		</array>
+		<key>Bundle Identifier</key>
+		<string>com.apple.finder</string>
+	</dict>
+	<key>Global</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array/>
+		<key>Bundle Identifier</key>
+		<string>com.apple.GlobalPreferences</string>
+	</dict>
+	<key>Google Agent</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array/>
+		<key>Bundle Identifier</key>
+		<string>com.google.Keystone.Agent</string>
+	</dict>
+	<key>QuickTime X</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.QuickTimePlayerX</string>
+		</array>
+		<key>Bundle Identifier</key>
+		<string>com.apple.QuickTimePlayerX</string>
+	</dict>
+	<key>Safari</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.Safari</string>
+		</array>
+		<key>Bundle Identifier</key>
+		<string>com.apple.Safari</string>
+	</dict>
+	<key>Screen Capture</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.screencapture</string>
+			<string>com.apple.systemuiserver</string>
+		</array>
+		<key>Bundle Identifier</key>
+		<string>com.apple.screencapture</string>
+	</dict>
+	<key>iTunes</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.iTunes</string>
+		</array>
+		<key>Bundle Identifier</key>
+		<string>com.apple.iTunes</string>
+	</dict>
+	<key>QuickLook</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.QuickLookUIHelper</string>
+			<string>com.apple.QuickLookDaemon</string>
+			<string>com.apple.finder</string>
+		</array>
+		<key>Bundle Identifier</key>
+		<string>com.apple.finder</string>
+	</dict>
+</dict>
+</plist>

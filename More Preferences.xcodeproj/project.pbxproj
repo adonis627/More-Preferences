@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4906D90415D10A8900906A40 /* GBThemingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4906D90315D10A8900906A40 /* GBThemingController.m */; };
+		4906D90615D1159A00906A40 /* Themes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4906D90515D1159A00906A40 /* Themes.xib */; };
+		4908AB13157B333000F9C029 /* GBProgressSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908AB11157B332F00F9C029 /* GBProgressSheetController.m */; };
+		4908AB43157BB10500F9C029 /* GBDragAndDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908AB42157BB10500F9C029 /* GBDragAndDropView.m */; };
+		4908AB46157BB13B00F9C029 /* DropHere.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4908AB44157BB13B00F9C029 /* DropHere.tiff */; };
+		4908AB47157BB13B00F9C029 /* DropHereRollOver.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4908AB45157BB13B00F9C029 /* DropHereRollOver.tiff */; };
+		4942B88F1580EE4800155674 /* More Preferences.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4942B88E1580EE4800155674 /* More Preferences.icns */; };
+		4942B89B158116C700155674 /* GBStandardLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942B89A158116C700155674 /* GBStandardLog.m */; };
+		4942B8A21581A3DB00155674 /* ToDo.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4942B8A11581A3DB00155674 /* ToDo.rtf */; };
+		496ACC511579001D008A58F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496ACC501579001D008A58F5 /* Cocoa.framework */; };
+		496ACC5B1579001D008A58F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 496ACC591579001D008A58F5 /* InfoPlist.strings */; };
+		496ACC5D1579001D008A58F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ACC5C1579001D008A58F5 /* main.m */; };
+		496ACC641579001D008A58F5 /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ACC631579001D008A58F5 /* GBAppDelegate.m */; };
+		496ACC671579001D008A58F5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496ACC651579001D008A58F5 /* MainMenu.xib */; };
+		496ACC7E15790038008A58F5 /* NSTask+PrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ACC7115790038008A58F5 /* NSTask+PrivilegedTask.m */; };
+		496ACC8115790038008A58F5 /* GBUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ACC7615790038008A58F5 /* GBUserDefaults.m */; };
+		496ACC8215790038008A58F5 /* GBInfoCheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ACC7815790038008A58F5 /* GBInfoCheckButton.m */; };
+		496ACC8315790038008A58F5 /* GBInfoCheckButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ACC7A15790038008A58F5 /* GBInfoCheckButtonController.m */; };
+		496ACC8415790038008A58F5 /* Persistent ID.plist in Resources */ = {isa = PBXBuildFile; fileRef = 496ACC7B15790038008A58F5 /* Persistent ID.plist */; };
+		496ACC8515790038008A58F5 /* GBGlobalDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ACC7D15790038008A58F5 /* GBGlobalDef.m */; };
+		496ACC871579009E008A58F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496ACC861579009E008A58F5 /* Security.framework */; };
+		49A0546A157C925A0094DD23 /* Progress Sheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A0546C157C925A0094DD23 /* Progress Sheet.xib */; };
+		49A0547D157CB2880094DD23 /* Uninstall Office 2011.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49A0547A157CB1A20094DD23 /* Uninstall Office 2011.scpt */; };
+		49A054A1157CBBBC0094DD23 /* GBScriptingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A054A0157CBBBC0094DD23 /* GBScriptingButton.m */; };
+		49A054A4157CC0A10094DD23 /* GBScriptingButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A054A3157CC0A10094DD23 /* GBScriptingButtonController.m */; };
+		49A054A7157CC6680094DD23 /* _Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49A054A5157CC6510094DD23 /* _Info.plist */; };
+		49A054A9157CCBF40094DD23 /* Restore Launchpad.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49A054A8157CCB2B0094DD23 /* Restore Launchpad.scpt */; };
+		49A054AC157CD0230094DD23 /* GBAppPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A054AB157CD0230094DD23 /* GBAppPreferenceController.m */; };
+		49B068BE1585DC93007490B6 /* Release Note.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 49B068BD1585DC93007490B6 /* Release Note.rtf */; };
+		49B0CDCD1584FC220022ED2B /* GBPathPopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0CDCC1584FC220022ED2B /* GBPathPopUpButtonCell.m */; };
+		49DEBBC715D8AF96009AD40C /* GBThemeDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DEBBC515D8AF96009AD40C /* GBThemeDocument.m */; };
+		49DEBBC815D8AF96009AD40C /* GBThemeDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DEBBC615D8AF96009AD40C /* GBThemeDocument.xib */; };
+		49DEBBCE15D8C036009AD40C /* App Theme.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49DEBBCD15D8C036009AD40C /* App Theme.icns */; };
+		49DEBBF815D8D00B009AD40C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DEBBE515D8CE0B009AD40C /* Foundation.framework */; };
+		49DEBBFB15D8D00B009AD40C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DEBBFA15D8D00B009AD40C /* main.m */; };
+		49FEA38C15D8D2630043A9B4 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49FEA38B15D8D2630043A9B4 /* ServiceManagement.framework */; };
+		49FEA39E15D8E4C80043A9B4 /* com.hnist.PluginInstaller in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49DEBBF615D8D00B009AD40C /* com.hnist.PluginInstaller */; };
+		49FEA3A615D8ECD70043A9B4 /* GBThemesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEA3A515D8ECD70043A9B4 /* GBThemesController.m */; };
+		49FEE012157BBA810047565C /* Appearance.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 49FEE00F157BBA810047565C /* Appearance.tiff */; };
+		49FEE013157BBA810047565C /* General.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 49FEE010157BBA810047565C /* General.tiff */; };
+		49FEE014157BBA810047565C /* Utilities.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 49FEE011157BBA810047565C /* Utilities.tiff */; };
+		49FEE017157BBD8A0047565C /* GBInfoMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE016157BBD8A0047565C /* GBInfoMenuItem.m */; };
+		49FEE01A157BBE070047565C /* GBInfoPopUpButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE019157BBE070047565C /* GBInfoPopUpButtonController.m */; };
+		49FEE01D157BBF3A0047565C /* GBInfoPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE01C157BBF3A0047565C /* GBInfoPopUpButton.m */; };
+		49FEE021157BC74E0047565C /* GBButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEE020157BC74E0047565C /* GBButtonController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49FEA39C15D8E4BD0043A9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496ACC431579001D008A58F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DEBBF515D8D00B009AD40C;
+			remoteInfo = com.hnist.PluginInstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4906D90715D12AB400906A40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				49FEA39E15D8E4C80043A9B4 /* com.hnist.PluginInstaller in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A0547C157CB26E0094DD23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Scripts;
+			dstSubfolderSpec = 7;
+			files = (
+				49A054A9157CCBF40094DD23 /* Restore Launchpad.scpt in CopyFiles */,
+				49A054A7157CC6680094DD23 /* _Info.plist in CopyFiles */,
+				49A0547D157CB2880094DD23 /* Uninstall Office 2011.scpt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4906D90215D10A8900906A40 /* GBThemingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBThemingController.h; sourceTree = "<group>"; };
+		4906D90315D10A8900906A40 /* GBThemingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBThemingController.m; sourceTree = "<group>"; };
+		4906D90515D1159A00906A40 /* Themes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Themes.xib; sourceTree = "<group>"; };
+		4908AB10157B332F00F9C029 /* GBProgressSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBProgressSheetController.h; sourceTree = "<group>"; };
+		4908AB11157B332F00F9C029 /* GBProgressSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBProgressSheetController.m; sourceTree = "<group>"; };
+		4908AB41157BB10500F9C029 /* GBDragAndDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDragAndDropView.h; sourceTree = "<group>"; };
+		4908AB42157BB10500F9C029 /* GBDragAndDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDragAndDropView.m; sourceTree = "<group>"; };
+		4908AB44157BB13B00F9C029 /* DropHere.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DropHere.tiff; sourceTree = "<group>"; };
+		4908AB45157BB13B00F9C029 /* DropHereRollOver.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DropHereRollOver.tiff; sourceTree = "<group>"; };
+		490F254D160401CC003AC0E4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4942B88E1580EE4800155674 /* More Preferences.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "More Preferences.icns"; sourceTree = SOURCE_ROOT; };
+		4942B897158100D600155674 /* GBStandardLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBStandardLog.h; sourceTree = "<group>"; };
+		4942B89A158116C700155674 /* GBStandardLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBStandardLog.m; sourceTree = "<group>"; };
+		4942B8A11581A3DB00155674 /* ToDo.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ToDo.rtf; sourceTree = "<group>"; };
+		496ACC4C1579001D008A58F5 /* More Preferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "More Preferences.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496ACC501579001D008A58F5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		496ACC531579001D008A58F5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		496ACC541579001D008A58F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		496ACC551579001D008A58F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		496ACC581579001D008A58F5 /* More Preferences-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "More Preferences-Info.plist"; sourceTree = "<group>"; };
+		496ACC5A1579001D008A58F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		496ACC5C1579001D008A58F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		496ACC5E1579001D008A58F5 /* More Preferences-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "More Preferences-Prefix.pch"; sourceTree = "<group>"; };
+		496ACC621579001D008A58F5 /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
+		496ACC631579001D008A58F5 /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
+		496ACC661579001D008A58F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		496ACC7015790038008A58F5 /* NSTask+PrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+PrivilegedTask.h"; sourceTree = "<group>"; };
+		496ACC7115790038008A58F5 /* NSTask+PrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+PrivilegedTask.m"; sourceTree = "<group>"; };
+		496ACC7515790038008A58F5 /* GBUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBUserDefaults.h; sourceTree = "<group>"; };
+		496ACC7615790038008A58F5 /* GBUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBUserDefaults.m; sourceTree = "<group>"; };
+		496ACC7715790038008A58F5 /* GBInfoCheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInfoCheckButton.h; sourceTree = "<group>"; };
+		496ACC7815790038008A58F5 /* GBInfoCheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInfoCheckButton.m; sourceTree = "<group>"; };
+		496ACC7915790038008A58F5 /* GBInfoCheckButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInfoCheckButtonController.h; sourceTree = "<group>"; };
+		496ACC7A15790038008A58F5 /* GBInfoCheckButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInfoCheckButtonController.m; sourceTree = "<group>"; };
+		496ACC7B15790038008A58F5 /* Persistent ID.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Persistent ID.plist"; sourceTree = "<group>"; };
+		496ACC7C15790038008A58F5 /* GBGlobalDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBGlobalDef.h; sourceTree = "<group>"; };
+		496ACC7D15790038008A58F5 /* GBGlobalDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBGlobalDef.m; sourceTree = "<group>"; };
+		496ACC861579009E008A58F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		49A0546B157C925A0094DD23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/Progress Sheet.xib"; sourceTree = "<group>"; };
+		49A0547A157CB1A20094DD23 /* Uninstall Office 2011.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uninstall Office 2011.scpt"; sourceTree = "<group>"; };
+		49A0549F157CBBBC0094DD23 /* GBScriptingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBScriptingButton.h; sourceTree = "<group>"; };
+		49A054A0157CBBBC0094DD23 /* GBScriptingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBScriptingButton.m; sourceTree = "<group>"; };
+		49A054A2157CC0A10094DD23 /* GBScriptingButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBScriptingButtonController.h; sourceTree = "<group>"; };
+		49A054A3157CC0A10094DD23 /* GBScriptingButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBScriptingButtonController.m; sourceTree = "<group>"; };
+		49A054A5157CC6510094DD23 /* _Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = _Info.plist; sourceTree = "<group>"; };
+		49A054A8157CCB2B0094DD23 /* Restore Launchpad.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Restore Launchpad.scpt"; sourceTree = "<group>"; };
+		49A054AA157CD0230094DD23 /* GBAppPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAppPreferenceController.h; sourceTree = "<group>"; };
+		49A054AB157CD0230094DD23 /* GBAppPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAppPreferenceController.m; sourceTree = "<group>"; };
+		49B068BD1585DC93007490B6 /* Release Note.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Release Note.rtf"; sourceTree = "<group>"; };
+		49B0CDCB1584FC220022ED2B /* GBPathPopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPathPopUpButtonCell.h; sourceTree = "<group>"; };
+		49B0CDCC1584FC220022ED2B /* GBPathPopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBPathPopUpButtonCell.m; sourceTree = "<group>"; };
+		49DEBBC415D8AF96009AD40C /* GBThemeDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBThemeDocument.h; sourceTree = "<group>"; };
+		49DEBBC515D8AF96009AD40C /* GBThemeDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBThemeDocument.m; sourceTree = "<group>"; };
+		49DEBBC615D8AF96009AD40C /* GBThemeDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBThemeDocument.xib; sourceTree = "<group>"; };
+		49DEBBCD15D8C036009AD40C /* App Theme.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "App Theme.icns"; sourceTree = "<group>"; };
+		49DEBBE515D8CE0B009AD40C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49DEBBF615D8D00B009AD40C /* com.hnist.PluginInstaller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.hnist.PluginInstaller; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DEBBFA15D8D00B009AD40C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49DEBBFD15D8D00B009AD40C /* PluginInstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PluginInstaller-Prefix.pch"; sourceTree = "<group>"; };
+		49DEBC0415D8D060009AD40C /* PluginInstaller-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PluginInstaller-Info.plist"; sourceTree = "<group>"; };
+		49DEBC0515D8D060009AD40C /* PluginInstaller-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PluginInstaller-Launchd.plist"; sourceTree = "<group>"; };
+		49FEA38B15D8D2630043A9B4 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		49FEA3A415D8ECD70043A9B4 /* GBThemesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBThemesController.h; sourceTree = "<group>"; };
+		49FEA3A515D8ECD70043A9B4 /* GBThemesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBThemesController.m; sourceTree = "<group>"; };
+		49FEE00F157BBA810047565C /* Appearance.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Appearance.tiff; sourceTree = "<group>"; };
+		49FEE010157BBA810047565C /* General.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = General.tiff; sourceTree = "<group>"; };
+		49FEE011157BBA810047565C /* Utilities.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Utilities.tiff; sourceTree = "<group>"; };
+		49FEE015157BBD8A0047565C /* GBInfoMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInfoMenuItem.h; sourceTree = "<group>"; };
+		49FEE016157BBD8A0047565C /* GBInfoMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInfoMenuItem.m; sourceTree = "<group>"; };
+		49FEE018157BBE070047565C /* GBInfoPopUpButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInfoPopUpButtonController.h; sourceTree = "<group>"; };
+		49FEE019157BBE070047565C /* GBInfoPopUpButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInfoPopUpButtonController.m; sourceTree = "<group>"; };
+		49FEE01B157BBF3A0047565C /* GBInfoPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInfoPopUpButton.h; sourceTree = "<group>"; };
+		49FEE01C157BBF3A0047565C /* GBInfoPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInfoPopUpButton.m; sourceTree = "<group>"; };
+		49FEE01F157BC74D0047565C /* GBButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBButtonController.h; sourceTree = "<group>"; };
+		49FEE020157BC74E0047565C /* GBButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBButtonController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496ACC491579001D008A58F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FEA38C15D8D2630043A9B4 /* ServiceManagement.framework in Frameworks */,
+				496ACC871579009E008A58F5 /* Security.framework in Frameworks */,
+				496ACC511579001D008A58F5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DEBBF315D8D00B009AD40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DEBBF815D8D00B009AD40C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4908AB32157BA7C400F9C029 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49DEBBCD15D8C036009AD40C /* App Theme.icns */,
+				49FEE00F157BBA810047565C /* Appearance.tiff */,
+				49FEE010157BBA810047565C /* General.tiff */,
+				49FEE011157BBA810047565C /* Utilities.tiff */,
+				4908AB44157BB13B00F9C029 /* DropHere.tiff */,
+				4908AB45157BB13B00F9C029 /* DropHereRollOver.tiff */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		496ACC411579001D008A58F5 = {
+			isa = PBXGroup;
+			children = (
+				49DEBBC315D8AF68009AD40C /* Theming Plugin */,
+				496ACC561579001D008A58F5 /* Controllers */,
+				49FEE022157BCA3B0047565C /* Other Controllers */,
+				496ACC89157902F1008A58F5 /* Other Classes */,
+				496ACC88157902E0008A58F5 /* Resources */,
+				49A054B1157CD0E20094DD23 /* Nibs */,
+				496ACC571579001D008A58F5 /* Supporting Files */,
+				49DEBBF915D8D00B009AD40C /* PluginInstaller */,
+				496ACC4F1579001D008A58F5 /* Frameworks */,
+				496ACC4D1579001D008A58F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496ACC4D1579001D008A58F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496ACC4C1579001D008A58F5 /* More Preferences.app */,
+				49DEBBF615D8D00B009AD40C /* com.hnist.PluginInstaller */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496ACC4F1579001D008A58F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49FEA38B15D8D2630043A9B4 /* ServiceManagement.framework */,
+				496ACC861579009E008A58F5 /* Security.framework */,
+				496ACC501579001D008A58F5 /* Cocoa.framework */,
+				49DEBBE515D8CE0B009AD40C /* Foundation.framework */,
+				496ACC521579001D008A58F5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		496ACC521579001D008A58F5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				496ACC531579001D008A58F5 /* AppKit.framework */,
+				496ACC541579001D008A58F5 /* CoreData.framework */,
+				496ACC551579001D008A58F5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		496ACC561579001D008A58F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49C860CB15C159FD00C53D18 /* OS X Theme Controller */,
+				49B1F46C157CEFA1002B2A2C /* GBPathPopUpButton (Reusable) */,
+				49A054B2157CD1310094DD23 /* App Controller */,
+				49A054AD157CD0450094DD23 /* Info Check Button */,
+				49A054AE157CD0850094DD23 /* Info PopUp Button */,
+				49A054AF157CD0A70094DD23 /* Scripting Button */,
+			);
+			name = Controllers;
+			path = "More Preferences";
+			sourceTree = "<group>";
+		};
+		496ACC571579001D008A58F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496ACC581579001D008A58F5 /* More Preferences-Info.plist */,
+				496ACC591579001D008A58F5 /* InfoPlist.strings */,
+				496ACC5C1579001D008A58F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "More Preferences";
+			sourceTree = "<group>";
+		};
+		496ACC88157902E0008A58F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49C860D015C15AFF00C53D18 /* Commands */,
+				4942B8A11581A3DB00155674 /* ToDo.rtf */,
+				49B068BD1585DC93007490B6 /* Release Note.rtf */,
+				4942B88E1580EE4800155674 /* More Preferences.icns */,
+				496ACC5E1579001D008A58F5 /* More Preferences-Prefix.pch */,
+				496ACC7B15790038008A58F5 /* Persistent ID.plist */,
+				49A05479157CB1740094DD23 /* Scripts */,
+				4908AB32157BA7C400F9C029 /* Images */,
+			);
+			name = Resources;
+			path = "More Preferences";
+			sourceTree = "<group>";
+		};
+		496ACC89157902F1008A58F5 /* Other Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4908AB41157BB10500F9C029 /* GBDragAndDropView.h */,
+				4908AB42157BB10500F9C029 /* GBDragAndDropView.m */,
+				496ACC7C15790038008A58F5 /* GBGlobalDef.h */,
+				496ACC7D15790038008A58F5 /* GBGlobalDef.m */,
+				496ACC7515790038008A58F5 /* GBUserDefaults.h */,
+				496ACC7615790038008A58F5 /* GBUserDefaults.m */,
+				496ACC7015790038008A58F5 /* NSTask+PrivilegedTask.h */,
+				496ACC7115790038008A58F5 /* NSTask+PrivilegedTask.m */,
+				4942B897158100D600155674 /* GBStandardLog.h */,
+				4942B89A158116C700155674 /* GBStandardLog.m */,
+			);
+			name = "Other Classes";
+			path = "More Preferences";
+			sourceTree = "<group>";
+		};
+		49A05479157CB1740094DD23 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				49A054A5157CC6510094DD23 /* _Info.plist */,
+				49A054A8157CCB2B0094DD23 /* Restore Launchpad.scpt */,
+				49A0547A157CB1A20094DD23 /* Uninstall Office 2011.scpt */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		49A054AD157CD0450094DD23 /* Info Check Button */ = {
+			isa = PBXGroup;
+			children = (
+				496ACC7715790038008A58F5 /* GBInfoCheckButton.h */,
+				496ACC7815790038008A58F5 /* GBInfoCheckButton.m */,
+				496ACC7915790038008A58F5 /* GBInfoCheckButtonController.h */,
+				496ACC7A15790038008A58F5 /* GBInfoCheckButtonController.m */,
+			);
+			name = "Info Check Button";
+			sourceTree = "<group>";
+		};
+		49A054AE157CD0850094DD23 /* Info PopUp Button */ = {
+			isa = PBXGroup;
+			children = (
+				49FEE015157BBD8A0047565C /* GBInfoMenuItem.h */,
+				49FEE016157BBD8A0047565C /* GBInfoMenuItem.m */,
+				49FEE01B157BBF3A0047565C /* GBInfoPopUpButton.h */,
+				49FEE01C157BBF3A0047565C /* GBInfoPopUpButton.m */,
+				49FEE018157BBE070047565C /* GBInfoPopUpButtonController.h */,
+				49FEE019157BBE070047565C /* GBInfoPopUpButtonController.m */,
+			);
+			name = "Info PopUp Button";
+			sourceTree = "<group>";
+		};
+		49A054AF157CD0A70094DD23 /* Scripting Button */ = {
+			isa = PBXGroup;
+			children = (
+				49A0549F157CBBBC0094DD23 /* GBScriptingButton.h */,
+				49A054A0157CBBBC0094DD23 /* GBScriptingButton.m */,
+				49A054A2157CC0A10094DD23 /* GBScriptingButtonController.h */,
+				49A054A3157CC0A10094DD23 /* GBScriptingButtonController.m */,
+			);
+			name = "Scripting Button";
+			sourceTree = "<group>";
+		};
+		49A054B1157CD0E20094DD23 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				49A0546C157C925A0094DD23 /* Progress Sheet.xib */,
+				496ACC651579001D008A58F5 /* MainMenu.xib */,
+				4906D90515D1159A00906A40 /* Themes.xib */,
+			);
+			name = Nibs;
+			path = "More Preferences";
+			sourceTree = "<group>";
+		};
+		49A054B2157CD1310094DD23 /* App Controller */ = {
+			isa = PBXGroup;
+			children = (
+				496ACC621579001D008A58F5 /* GBAppDelegate.h */,
+				496ACC631579001D008A58F5 /* GBAppDelegate.m */,
+				49A054AA157CD0230094DD23 /* GBAppPreferenceController.h */,
+				49A054AB157CD0230094DD23 /* GBAppPreferenceController.m */,
+			);
+			name = "App Controller";
+			sourceTree = "<group>";
+		};
+		49B1F46C157CEFA1002B2A2C /* GBPathPopUpButton (Reusable) */ = {
+			isa = PBXGroup;
+			children = (
+				49B0CDCB1584FC220022ED2B /* GBPathPopUpButtonCell.h */,
+				49B0CDCC1584FC220022ED2B /* GBPathPopUpButtonCell.m */,
+			);
+			name = "GBPathPopUpButton (Reusable)";
+			sourceTree = "<group>";
+		};
+		49C860CB15C159FD00C53D18 /* OS X Theme Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4906D90215D10A8900906A40 /* GBThemingController.h */,
+				4906D90315D10A8900906A40 /* GBThemingController.m */,
+			);
+			name = "OS X Theme Controller";
+			sourceTree = "<group>";
+		};
+		49C860D015C15AFF00C53D18 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		49DEBBC315D8AF68009AD40C /* Theming Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				49DEBBC415D8AF96009AD40C /* GBThemeDocument.h */,
+				49DEBBC515D8AF96009AD40C /* GBThemeDocument.m */,
+				49DEBBC615D8AF96009AD40C /* GBThemeDocument.xib */,
+				49FEA3A415D8ECD70043A9B4 /* GBThemesController.h */,
+				49FEA3A515D8ECD70043A9B4 /* GBThemesController.m */,
+			);
+			name = "Theming Plugin";
+			path = "More Preferences";
+			sourceTree = "<group>";
+		};
+		49DEBBF915D8D00B009AD40C /* PluginInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				49DEBC0415D8D060009AD40C /* PluginInstaller-Info.plist */,
+				49DEBC0515D8D060009AD40C /* PluginInstaller-Launchd.plist */,
+				49DEBBFA15D8D00B009AD40C /* main.m */,
+				49DEBBFC15D8D00B009AD40C /* Supporting Files */,
+			);
+			path = PluginInstaller;
+			sourceTree = "<group>";
+		};
+		49DEBBFC15D8D00B009AD40C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49DEBBFD15D8D00B009AD40C /* PluginInstaller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49FEE022157BCA3B0047565C /* Other Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49FEE01F157BC74D0047565C /* GBButtonController.h */,
+				49FEE020157BC74E0047565C /* GBButtonController.m */,
+				4908AB10157B332F00F9C029 /* GBProgressSheetController.h */,
+				4908AB11157B332F00F9C029 /* GBProgressSheetController.m */,
+			);
+			name = "Other Controllers";
+			path = "More Preferences";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496ACC4B1579001D008A58F5 /* More Preferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496ACC6A1579001D008A58F5 /* Build configuration list for PBXNativeTarget "More Preferences" */;
+			buildPhases = (
+				496ACC481579001D008A58F5 /* Sources */,
+				496ACC491579001D008A58F5 /* Frameworks */,
+				496ACC4A1579001D008A58F5 /* Resources */,
+				49A0547C157CB26E0094DD23 /* CopyFiles */,
+				4906D90715D12AB400906A40 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49FEA39D15D8E4BD0043A9B4 /* PBXTargetDependency */,
+			);
+			name = "More Preferences";
+			productName = Maximal;
+			productReference = 496ACC4C1579001D008A58F5 /* More Preferences.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49DEBBF515D8D00B009AD40C /* com.hnist.PluginInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DEBC0015D8D00B009AD40C /* Build configuration list for PBXNativeTarget "com.hnist.PluginInstaller" */;
+			buildPhases = (
+				49DEBBF215D8D00B009AD40C /* Sources */,
+				49DEBBF315D8D00B009AD40C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.hnist.PluginInstaller;
+			productName = PluginInstaller;
+			productReference = 49DEBBF615D8D00B009AD40C /* com.hnist.PluginInstaller */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496ACC431579001D008A58F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GB;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Hunan Institute of Science";
+			};
+			buildConfigurationList = 496ACC461579001D008A58F5 /* Build configuration list for PBXProject "More Preferences" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 496ACC411579001D008A58F5;
+			productRefGroup = 496ACC4D1579001D008A58F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496ACC4B1579001D008A58F5 /* More Preferences */,
+				49DEBBF515D8D00B009AD40C /* com.hnist.PluginInstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496ACC4A1579001D008A58F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496ACC5B1579001D008A58F5 /* InfoPlist.strings in Resources */,
+				496ACC671579001D008A58F5 /* MainMenu.xib in Resources */,
+				496ACC8415790038008A58F5 /* Persistent ID.plist in Resources */,
+				49A0546A157C925A0094DD23 /* Progress Sheet.xib in Resources */,
+				4908AB46157BB13B00F9C029 /* DropHere.tiff in Resources */,
+				4908AB47157BB13B00F9C029 /* DropHereRollOver.tiff in Resources */,
+				49FEE012157BBA810047565C /* Appearance.tiff in Resources */,
+				49FEE013157BBA810047565C /* General.tiff in Resources */,
+				49FEE014157BBA810047565C /* Utilities.tiff in Resources */,
+				4942B88F1580EE4800155674 /* More Preferences.icns in Resources */,
+				4942B8A21581A3DB00155674 /* ToDo.rtf in Resources */,
+				49B068BE1585DC93007490B6 /* Release Note.rtf in Resources */,
+				4906D90615D1159A00906A40 /* Themes.xib in Resources */,
+				49DEBBC815D8AF96009AD40C /* GBThemeDocument.xib in Resources */,
+				49DEBBCE15D8C036009AD40C /* App Theme.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496ACC481579001D008A58F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496ACC5D1579001D008A58F5 /* main.m in Sources */,
+				496ACC641579001D008A58F5 /* GBAppDelegate.m in Sources */,
+				496ACC7E15790038008A58F5 /* NSTask+PrivilegedTask.m in Sources */,
+				496ACC8115790038008A58F5 /* GBUserDefaults.m in Sources */,
+				496ACC8215790038008A58F5 /* GBInfoCheckButton.m in Sources */,
+				496ACC8315790038008A58F5 /* GBInfoCheckButtonController.m in Sources */,
+				496ACC8515790038008A58F5 /* GBGlobalDef.m in Sources */,
+				4908AB13157B333000F9C029 /* GBProgressSheetController.m in Sources */,
+				4908AB43157BB10500F9C029 /* GBDragAndDropView.m in Sources */,
+				49FEE017157BBD8A0047565C /* GBInfoMenuItem.m in Sources */,
+				49FEE01A157BBE070047565C /* GBInfoPopUpButtonController.m in Sources */,
+				49FEE01D157BBF3A0047565C /* GBInfoPopUpButton.m in Sources */,
+				49FEE021157BC74E0047565C /* GBButtonController.m in Sources */,
+				49A054A1157CBBBC0094DD23 /* GBScriptingButton.m in Sources */,
+				49A054A4157CC0A10094DD23 /* GBScriptingButtonController.m in Sources */,
+				49A054AC157CD0230094DD23 /* GBAppPreferenceController.m in Sources */,
+				4942B89B158116C700155674 /* GBStandardLog.m in Sources */,
+				49B0CDCD1584FC220022ED2B /* GBPathPopUpButtonCell.m in Sources */,
+				4906D90415D10A8900906A40 /* GBThemingController.m in Sources */,
+				49DEBBC715D8AF96009AD40C /* GBThemeDocument.m in Sources */,
+				49FEA3A615D8ECD70043A9B4 /* GBThemesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DEBBF215D8D00B009AD40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DEBBFB15D8D00B009AD40C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49FEA39D15D8E4BD0043A9B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49DEBBF515D8D00B009AD40C /* com.hnist.PluginInstaller */;
+			targetProxy = 49FEA39C15D8E4BD0043A9B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		496ACC591579001D008A58F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496ACC5A1579001D008A58F5 /* en */,
+				490F254D160401CC003AC0E4 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		496ACC651579001D008A58F5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496ACC661579001D008A58F5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		49A0546C157C925A0094DD23 /* Progress Sheet.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A0546B157C925A0094DD23 /* en */,
+			);
+			name = "Progress Sheet.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496ACC681579001D008A58F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Andrew A.A.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Users/andrew/Desktop;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		496ACC691579001D008A58F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Andrew A.A.";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Users/andrew/Desktop;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		496ACC6B1579001D008A58F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Andrew A.A.";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "More Preferences/More Preferences-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = "More Preferences/More Preferences-Info.plist";
+				INSTALL_PATH = /Applications/;
+				PRODUCT_NAME = "More Preferences";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		496ACC6C1579001D008A58F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "Andrew A.A.";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "More Preferences/More Preferences-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = "More Preferences/More Preferences-Info.plist";
+				INSTALL_PATH = /Applications/;
+				PRODUCT_NAME = "More Preferences";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49DEBC0115D8D00B009AD40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Andrew A.A.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PluginInstaller/PluginInstaller-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"PluginInstaller/PluginInstaller-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"PluginInstaller/PluginInstaller-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		49DEBC0215D8D00B009AD40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Andrew A.A.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PluginInstaller/PluginInstaller-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"PluginInstaller/PluginInstaller-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"PluginInstaller/PluginInstaller-Launchd.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496ACC461579001D008A58F5 /* Build configuration list for PBXProject "More Preferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496ACC681579001D008A58F5 /* Debug */,
+				496ACC691579001D008A58F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496ACC6A1579001D008A58F5 /* Build configuration list for PBXNativeTarget "More Preferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496ACC6B1579001D008A58F5 /* Debug */,
+				496ACC6C1579001D008A58F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49DEBC0015D8D00B009AD40C /* Build configuration list for PBXNativeTarget "com.hnist.PluginInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DEBC0115D8D00B009AD40C /* Debug */,
+				49DEBC0215D8D00B009AD40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496ACC431579001D008A58F5 /* Project object */;
+}
