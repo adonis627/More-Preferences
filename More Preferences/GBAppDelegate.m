@@ -229,7 +229,8 @@
 	else
 		itemIdentifier = ((NSToolbarItem *)sender).itemIdentifier;
 	
-	NSView *newContentView;
+	NSView *newContentView = nil;
+	
 	if ([itemIdentifier isEqualToString:@"General"])
 		newContentView = self.contentViewGeneral;
 	else if ([itemIdentifier isEqualToString:@"Themes"])
