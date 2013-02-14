@@ -42,6 +42,7 @@
 		49DEBBCE15D8C036009AD40C /* App Theme.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49DEBBCD15D8C036009AD40C /* App Theme.icns */; };
 		49DEBBF815D8D00B009AD40C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DEBBE515D8CE0B009AD40C /* Foundation.framework */; };
 		49DEBBFB15D8D00B009AD40C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DEBBFA15D8D00B009AD40C /* main.m */; };
+		49FCAC4C16CD5F08001C165E /* Reset Finder Open With Menu.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49FCAC4A16CD5E7E001C165E /* Reset Finder Open With Menu.scpt */; };
 		49FEA38C15D8D2630043A9B4 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49FEA38B15D8D2630043A9B4 /* ServiceManagement.framework */; };
 		49FEA39E15D8E4C80043A9B4 /* com.hnist.PluginInstaller in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49DEBBF615D8D00B009AD40C /* com.hnist.PluginInstaller */; };
 		49FEA3A615D8ECD70043A9B4 /* GBThemesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FEA3A515D8ECD70043A9B4 /* GBThemesController.m */; };
@@ -81,6 +82,7 @@
 			dstPath = Scripts;
 			dstSubfolderSpec = 7;
 			files = (
+				49FCAC4C16CD5F08001C165E /* Reset Finder Open With Menu.scpt in CopyFiles */,
 				49A054A9157CCBF40094DD23 /* Restore Launchpad.scpt in CopyFiles */,
 				49A054A7157CC6680094DD23 /* _Info.plist in CopyFiles */,
 				49A0547D157CB2880094DD23 /* Uninstall Office 2011.scpt in CopyFiles */,
@@ -151,6 +153,7 @@
 		49DEBBFD15D8D00B009AD40C /* PluginInstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PluginInstaller-Prefix.pch"; sourceTree = "<group>"; };
 		49DEBC0415D8D060009AD40C /* PluginInstaller-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PluginInstaller-Info.plist"; sourceTree = "<group>"; };
 		49DEBC0515D8D060009AD40C /* PluginInstaller-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PluginInstaller-Launchd.plist"; sourceTree = "<group>"; };
+		49FCAC4A16CD5E7E001C165E /* Reset Finder Open With Menu.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reset Finder Open With Menu.scpt"; sourceTree = "<group>"; };
 		49FEA38B15D8D2630043A9B4 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		49FEA3A415D8ECD70043A9B4 /* GBThemesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBThemesController.h; sourceTree = "<group>"; };
 		49FEA3A515D8ECD70043A9B4 /* GBThemesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBThemesController.m; sourceTree = "<group>"; };
@@ -210,7 +213,7 @@
 				49FEE022157BCA3B0047565C /* Other Controllers */,
 				496ACC89157902F1008A58F5 /* Other Classes */,
 				496ACC88157902E0008A58F5 /* Resources */,
-				49A054B1157CD0E20094DD23 /* Nibs */,
+				49A054B1157CD0E20094DD23 /* App Nibs */,
 				496ACC571579001D008A58F5 /* Supporting Files */,
 				49DEBBF915D8D00B009AD40C /* PluginInstaller */,
 				496ACC4F1579001D008A58F5 /* Frameworks */,
@@ -277,7 +280,6 @@
 		496ACC88157902E0008A58F5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				49C860D015C15AFF00C53D18 /* Commands */,
 				4942B8A11581A3DB00155674 /* ToDo.rtf */,
 				49B068BD1585DC93007490B6 /* Release Note.rtf */,
 				4942B88E1580EE4800155674 /* More Preferences.icns */,
@@ -312,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				49A054A5157CC6510094DD23 /* _Info.plist */,
+				49FCAC4A16CD5E7E001C165E /* Reset Finder Open With Menu.scpt */,
 				49A054A8157CCB2B0094DD23 /* Restore Launchpad.scpt */,
 				49A0547A157CB1A20094DD23 /* Uninstall Office 2011.scpt */,
 			);
@@ -353,14 +356,14 @@
 			name = "Scripting Button";
 			sourceTree = "<group>";
 		};
-		49A054B1157CD0E20094DD23 /* Nibs */ = {
+		49A054B1157CD0E20094DD23 /* App Nibs */ = {
 			isa = PBXGroup;
 			children = (
 				49A0546C157C925A0094DD23 /* Progress Sheet.xib */,
 				496ACC651579001D008A58F5 /* MainMenu.xib */,
 				4906D90515D1159A00906A40 /* Themes.xib */,
 			);
-			name = Nibs;
+			name = "App Nibs";
 			path = "More Preferences";
 			sourceTree = "<group>";
 		};
@@ -391,13 +394,6 @@
 				4906D90315D10A8900906A40 /* GBThemingController.m */,
 			);
 			name = "OS X Theme Controller";
-			sourceTree = "<group>";
-		};
-		49C860D015C15AFF00C53D18 /* Commands */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Commands;
 			sourceTree = "<group>";
 		};
 		49DEBBC315D8AF68009AD40C /* Theming Plugin */ = {
@@ -688,6 +684,7 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "More Preferences/More Preferences-Info.plist";
 				INSTALL_PATH = /Applications/;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "More Preferences";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -711,6 +708,7 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "More Preferences/More Preferences-Info.plist";
 				INSTALL_PATH = /Applications/;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "More Preferences";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = NO;

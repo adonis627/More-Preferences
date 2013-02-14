@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1070</int>
+		<int key="IBDocument.SystemTarget">1080</int>
 		<string key="IBDocument.SystemVersion">12D65</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
 		<string key="IBDocument.AppKitVersion">1187.37</string>
@@ -212,9 +212,10 @@
 				</object>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="786262080">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{346, 197}</string>
+					<reference key="NSSuperview"/>
 					<string key="NSReuseIdentifierKey">_NS:20</string>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 800}}</string>
@@ -670,7 +671,7 @@
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSView" id="994548868">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">256</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSButton" id="736966668">
@@ -678,8 +679,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{273, 13}, {108, 28}}</string>
 						<reference key="NSSuperview" ref="994548868"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="663358809">
@@ -704,8 +703,6 @@
 						<int key="NSvFlags">36</int>
 						<string key="NSFrame">{{13, 35}, {370, 191}}</string>
 						<reference key="NSSuperview" ref="994548868"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="507967037"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<array class="NSMutableArray" key="NSTabViewItems">
 							<object class="NSTabViewItem" id="46055767">
@@ -719,7 +716,6 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{14, 132}, {247, 18}}</string>
 											<reference key="NSSuperview" ref="507967037"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="667752774"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<string key="NSHuggingPriority">{250, 250}</string>
@@ -748,7 +744,6 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{14, 114}, {229, 18}}</string>
 											<reference key="NSSuperview" ref="507967037"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="682786034"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<string key="NSHuggingPriority">{250, 250}</string>
@@ -777,7 +772,6 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{178, 52}, {121, 22}}</string>
 											<reference key="NSSuperview" ref="507967037"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="736966668"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<bool key="NSEnabled">YES</bool>
@@ -871,7 +865,6 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{14, 57}, {162, 14}}</string>
 											<reference key="NSSuperview" ref="507967037"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="861856055"/>
 											<string key="NSReuseIdentifierKey">_NS:1505</string>
 											<bool key="NSEnabled">YES</bool>
@@ -892,7 +885,6 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{14, 96}, {229, 18}}</string>
 											<reference key="NSSuperview" ref="507967037"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="770050644"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<string key="NSHuggingPriority">{250, 250}</string>
@@ -921,7 +913,6 @@
 											<int key="NSvFlags">268</int>
 											<string key="NSFrame">{{14, 78}, {229, 18}}</string>
 											<reference key="NSSuperview" ref="507967037"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="507455886"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<string key="NSHuggingPriority">{250, 250}</string>
@@ -948,7 +939,6 @@
 									</array>
 									<string key="NSFrame">{{10, 25}, {350, 153}}</string>
 									<reference key="NSSuperview" ref="895644623"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="674257794"/>
 									<string key="NSReuseIdentifierKey">_NS:11</string>
 								</object>
@@ -1763,8 +1753,6 @@
 					</object>
 				</array>
 				<string key="NSFrameSize">{396, 243}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="895644623"/>
 				<string key="NSReuseIdentifierKey">_NS:21</string>
 			</object>
@@ -1960,7 +1948,7 @@
 				<string key="NSReuseIdentifierKey">_NS:21</string>
 			</object>
 			<object class="NSCustomView" id="584160764">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">268</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSBox" id="755836861">
@@ -1980,7 +1968,7 @@
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSButtonCell" key="NSCell" id="454575235">
-											<int key="NSCellFlags">-2080374784</int>
+											<int key="NSCellFlags">67108864</int>
 											<int key="NSCellFlags2">131072</int>
 											<string key="NSContents">Restore Launchpad to its default state</string>
 											<reference key="NSSupport" ref="26"/>
@@ -2002,7 +1990,7 @@
 										<int key="NSvFlags">268</int>
 										<string key="NSFrame">{{15, 74}, {265, 18}}</string>
 										<reference key="NSSuperview" ref="79933884"/>
-										<reference key="NSNextKeyView" ref="1013085944"/>
+										<reference key="NSNextKeyView" ref="735833855"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSButtonCell" key="NSCell" id="1005489199">
@@ -2012,6 +2000,32 @@
 											<reference key="NSSupport" ref="26"/>
 											<string key="NSCellIdentifier">_NS:9</string>
 											<reference key="NSControlView" ref="366702366"/>
+											<int key="NSButtonFlags">1211912448</int>
+											<int key="NSButtonFlags2">2</int>
+											<reference key="NSNormalImage" ref="14561710"/>
+											<reference key="NSAlternateImage" ref="582911573"/>
+											<string key="NSAlternateContents"/>
+											<string key="NSKeyEquivalent"/>
+											<int key="NSPeriodicDelay">200</int>
+											<int key="NSPeriodicInterval">25</int>
+										</object>
+										<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+									</object>
+									<object class="NSButton" id="735833855">
+										<reference key="NSNextResponder" ref="79933884"/>
+										<int key="NSvFlags">268</int>
+										<string key="NSFrame">{{15, 52}, {265, 18}}</string>
+										<reference key="NSSuperview" ref="79933884"/>
+										<reference key="NSNextKeyView" ref="1013085944"/>
+										<string key="NSReuseIdentifierKey">_NS:9</string>
+										<bool key="NSEnabled">YES</bool>
+										<object class="NSButtonCell" key="NSCell" id="1016758446">
+											<int key="NSCellFlags">67108864</int>
+											<int key="NSCellFlags2">131072</int>
+											<string key="NSContents">Reset Finder's "Open With" contextual menu</string>
+											<reference key="NSSupport" ref="26"/>
+											<string key="NSCellIdentifier">_NS:9</string>
+											<reference key="NSControlView" ref="735833855"/>
 											<int key="NSButtonFlags">1211912448</int>
 											<int key="NSButtonFlags2">2</int>
 											<reference key="NSNormalImage" ref="14561710"/>
@@ -2057,6 +2071,7 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{258, 13}, {102, 28}}</string>
 						<reference key="NSSuperview" ref="584160764"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="551798461">
@@ -2077,6 +2092,7 @@
 					</object>
 				</array>
 				<string key="NSFrameSize">{375, 183}</string>
+				<reference key="NSSuperview"/>
 				<reference key="NSNextKeyView" ref="755836861"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<string key="NSClassName">NSView</string>
@@ -4643,6 +4659,14 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
+						<string key="label">buttonResetFinderOpenWithMenu</string>
+						<reference key="source" ref="823164129"/>
+						<reference key="destination" ref="735833855"/>
+					</object>
+					<int key="connectionID">1645</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
 						<reference key="source" ref="281128727"/>
 						<reference key="destination" ref="303829313"/>
@@ -6245,6 +6269,7 @@
 						<array class="NSMutableArray" key="children">
 							<reference ref="173231264"/>
 							<reference ref="366702366"/>
+							<reference ref="735833855"/>
 						</array>
 						<reference key="parent" ref="584160764"/>
 					</object>
@@ -6816,6 +6841,20 @@
 						<int key="objectID">1638</int>
 						<reference key="object" ref="87979075"/>
 						<reference key="parent" ref="770050644"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1643</int>
+						<reference key="object" ref="735833855"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="1016758446"/>
+						</array>
+						<reference key="parent" ref="755836861"/>
+						<string key="objectName">Uninstall MSOffice</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1644</int>
+						<reference key="object" ref="1016758446"/>
+						<reference key="parent" ref="735833855"/>
 					</object>
 				</array>
 			</object>
@@ -7919,6 +7958,10 @@
 				</dictionary>
 				<string key="1637.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1638.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<dictionary class="NSMutableDictionary" key="1643.IBAttributePlaceholdersKey"/>
+				<string key="1643.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="1643.userInterfaceItemIdentifier">Reset Finder Open With Menu</string>
+				<string key="1644.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="19.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="195.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="196.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -8072,501 +8115,11 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">1642</int>
+			<int key="maxID">1645</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">GBAppDelegate</string>
-					<string key="superclassName">NSObject</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="cancelPressed:">id</string>
-						<string key="quitPressed:">id</string>
-						<string key="showMoreInfoSheet:">id</string>
-						<string key="switchMainContentView:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="cancelPressed:">
-							<string key="name">cancelPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="quitPressed:">
-							<string key="name">quitPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="showMoreInfoSheet:">
-							<string key="name">showMoreInfoSheet:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="switchMainContentView:">
-							<string key="name">switchMainContentView:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="contentViewGeneral">NSView</string>
-						<string key="contentViewPreferences">NSView</string>
-						<string key="contentViewThemes">NSView</string>
-						<string key="contentViewUtilities">NSView</string>
-						<string key="mainWindow">NSWindow</string>
-						<string key="moreInfoSheet">NSWindow</string>
-						<string key="spinningIndicator">NSProgressIndicator</string>
-						<string key="toolbar">NSToolbar</string>
-						<string key="toolbarGeneralItem">NSToolbarItem</string>
-						<string key="toolbarThemesItem">NSToolbarItem</string>
-						<string key="toolbarUtilitiesItem">NSToolbarItem</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="contentViewGeneral">
-							<string key="name">contentViewGeneral</string>
-							<string key="candidateClassName">NSView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="contentViewPreferences">
-							<string key="name">contentViewPreferences</string>
-							<string key="candidateClassName">NSView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="contentViewThemes">
-							<string key="name">contentViewThemes</string>
-							<string key="candidateClassName">NSView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="contentViewUtilities">
-							<string key="name">contentViewUtilities</string>
-							<string key="candidateClassName">NSView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="mainWindow">
-							<string key="name">mainWindow</string>
-							<string key="candidateClassName">NSWindow</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="moreInfoSheet">
-							<string key="name">moreInfoSheet</string>
-							<string key="candidateClassName">NSWindow</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="spinningIndicator">
-							<string key="name">spinningIndicator</string>
-							<string key="candidateClassName">NSProgressIndicator</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="toolbar">
-							<string key="name">toolbar</string>
-							<string key="candidateClassName">NSToolbar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="toolbarGeneralItem">
-							<string key="name">toolbarGeneralItem</string>
-							<string key="candidateClassName">NSToolbarItem</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="toolbarThemesItem">
-							<string key="name">toolbarThemesItem</string>
-							<string key="candidateClassName">NSToolbarItem</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="toolbarUtilitiesItem">
-							<string key="name">toolbarUtilitiesItem</string>
-							<string key="candidateClassName">NSToolbarItem</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBAppDelegate.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBAppPreferenceController</string>
-					<string key="superclassName">NSObject</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">stateChanged:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">stateChanged:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">stateChanged:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">deleteOriginalBundleAfterInstall</string>
-						<string key="NS.object.0">NSButton</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">deleteOriginalBundleAfterInstall</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">deleteOriginalBundleAfterInstall</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBAppPreferenceController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBButtonController</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBButtonController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBInfoCheckButton</string>
-					<string key="superclassName">NSButton</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBInfoCheckButton.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBInfoCheckButtonController</string>
-					<string key="superclassName">GBButtonController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">checkButtonStateDidChange:</string>
-						<string key="NS.object.0">GBInfoCheckButton</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">checkButtonStateDidChange:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">checkButtonStateDidChange:</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-					</object>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="mainTabView">NSTabView</string>
-						<string key="moreInfoButton">NSButton</string>
-						<string key="turnOffAutomaticTermination">GBInfoCheckButton</string>
-						<string key="turnOffDashboard">GBInfoCheckButton</string>
-						<string key="turnOffDockContentMutability">GBInfoCheckButton</string>
-						<string key="turnOffDockSizeMutability">GBInfoCheckButton</string>
-						<string key="turnOffGoogleAutomaticUpdate">GBInfoCheckButton</string>
-						<string key="turnOffSafariPDFSupport">GBInfoCheckButton</string>
-						<string key="turnOffiTunesElasticScrolling">GBInfoCheckButton</string>
-						<string key="turnOnAutoPlayMoviesInQuickTime">GBInfoCheckButton</string>
-						<string key="turnOnDesktop">GBInfoCheckButton</string>
-						<string key="turnOnQuickLookTextSelection">GBInfoCheckButton</string>
-						<string key="turnOnSafariSingleWindowMode">GBInfoCheckButton</string>
-						<string key="turnOnSaveDialogOpenInExpandedMode">GBInfoCheckButton</string>
-						<string key="turnOnSaveToiCloudByDefault">GBInfoCheckButton</string>
-						<string key="turnOnShowHiddenFiles">GBInfoCheckButton</string>
-						<string key="turnOnShowPosixPathInWindowTitle">GBInfoCheckButton</string>
-						<string key="turnOnShowWarningBeforeChangingExtension">GBInfoCheckButton</string>
-						<string key="turnOnWindowOpenAnimation">GBInfoCheckButton</string>
-						<string key="turnOnXRayFolderQuickLook">GBInfoCheckButton</string>
-						<string key="turnOniTunesDockNotification">GBInfoCheckButton</string>
-						<string key="turnOniTunesDockNotificationIcon">GBInfoCheckButton</string>
-						<string key="turnOniTunesHalfStarRating">GBInfoCheckButton</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="mainTabView">
-							<string key="name">mainTabView</string>
-							<string key="candidateClassName">NSTabView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="moreInfoButton">
-							<string key="name">moreInfoButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOffAutomaticTermination">
-							<string key="name">turnOffAutomaticTermination</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOffDashboard">
-							<string key="name">turnOffDashboard</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOffDockContentMutability">
-							<string key="name">turnOffDockContentMutability</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOffDockSizeMutability">
-							<string key="name">turnOffDockSizeMutability</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOffGoogleAutomaticUpdate">
-							<string key="name">turnOffGoogleAutomaticUpdate</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOffSafariPDFSupport">
-							<string key="name">turnOffSafariPDFSupport</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOffiTunesElasticScrolling">
-							<string key="name">turnOffiTunesElasticScrolling</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnAutoPlayMoviesInQuickTime">
-							<string key="name">turnOnAutoPlayMoviesInQuickTime</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnDesktop">
-							<string key="name">turnOnDesktop</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnQuickLookTextSelection">
-							<string key="name">turnOnQuickLookTextSelection</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnSafariSingleWindowMode">
-							<string key="name">turnOnSafariSingleWindowMode</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnSaveDialogOpenInExpandedMode">
-							<string key="name">turnOnSaveDialogOpenInExpandedMode</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnSaveToiCloudByDefault">
-							<string key="name">turnOnSaveToiCloudByDefault</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnShowHiddenFiles">
-							<string key="name">turnOnShowHiddenFiles</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnShowPosixPathInWindowTitle">
-							<string key="name">turnOnShowPosixPathInWindowTitle</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnShowWarningBeforeChangingExtension">
-							<string key="name">turnOnShowWarningBeforeChangingExtension</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnWindowOpenAnimation">
-							<string key="name">turnOnWindowOpenAnimation</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOnXRayFolderQuickLook">
-							<string key="name">turnOnXRayFolderQuickLook</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOniTunesDockNotification">
-							<string key="name">turnOniTunesDockNotification</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOniTunesDockNotificationIcon">
-							<string key="name">turnOniTunesDockNotificationIcon</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="turnOniTunesHalfStarRating">
-							<string key="name">turnOniTunesHalfStarRating</string>
-							<string key="candidateClassName">GBInfoCheckButton</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBInfoCheckButtonController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBInfoMenuItem</string>
-					<string key="superclassName">NSMenuItem</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBInfoMenuItem.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBInfoPopUpButton</string>
-					<string key="superclassName">NSPopUpButton</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBInfoPopUpButton.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBInfoPopUpButtonController</string>
-					<string key="superclassName">GBButtonController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">popUpButtonPressed:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">popUpButtonPressed:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">popUpButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="popUpDockAlignment">GBInfoPopUpButton</string>
-						<string key="popUpDockAnimation">GBInfoPopUpButton</string>
-						<string key="popUpDockPosition">GBInfoPopUpButton</string>
-						<string key="popUpScreenCaptureFormat">GBInfoPopUpButton</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="popUpDockAlignment">
-							<string key="name">popUpDockAlignment</string>
-							<string key="candidateClassName">GBInfoPopUpButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="popUpDockAnimation">
-							<string key="name">popUpDockAnimation</string>
-							<string key="candidateClassName">GBInfoPopUpButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="popUpDockPosition">
-							<string key="name">popUpDockPosition</string>
-							<string key="candidateClassName">GBInfoPopUpButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="popUpScreenCaptureFormat">
-							<string key="name">popUpScreenCaptureFormat</string>
-							<string key="candidateClassName">GBInfoPopUpButton</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBInfoPopUpButtonController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBPathPopUpButtonCell</string>
-					<string key="superclassName">NSPopUpButtonCell</string>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">delegate</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">delegate</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">delegate</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBPathPopUpButtonCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBScriptingButtonController</string>
-					<string key="superclassName">GBButtonController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">executeButtonPressed:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">executeButtonPressed:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">executeButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="buttonRestoreLaunchpad">NSButton</string>
-						<string key="buttonUninstallMSOffice">NSButton</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="buttonRestoreLaunchpad">
-							<string key="name">buttonRestoreLaunchpad</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="buttonUninstallMSOffice">
-							<string key="name">buttonUninstallMSOffice</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBScriptingButtonController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBThemingController</string>
-					<string key="superclassName">NSObject</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="backupCurrentTheme:">id</string>
-						<string key="beginRestoreTheme:">id</string>
-						<string key="cancelRestoreTheme:">id</string>
-						<string key="compileTheme:">id</string>
-						<string key="installTheme:">id</string>
-						<string key="restoreThemeFromBackup:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="backupCurrentTheme:">
-							<string key="name">backupCurrentTheme:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="beginRestoreTheme:">
-							<string key="name">beginRestoreTheme:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="cancelRestoreTheme:">
-							<string key="name">cancelRestoreTheme:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="compileTheme:">
-							<string key="name">compileTheme:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="installTheme:">
-							<string key="name">installTheme:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="restoreThemeFromBackup:">
-							<string key="name">restoreThemeFromBackup:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="recentBackupArrayController">NSArrayController</string>
-						<string key="recentBackupPanel">NSWindow</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="recentBackupArrayController">
-							<string key="name">recentBackupArrayController</string>
-							<string key="candidateClassName">NSArrayController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="recentBackupPanel">
-							<string key="name">recentBackupPanel</string>
-							<string key="candidateClassName">NSWindow</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBThemingController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSDocument</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="printDocument:">id</string>
-						<string key="revertDocumentToSaved:">id</string>
-						<string key="runPageLayout:">id</string>
-						<string key="saveDocument:">id</string>
-						<string key="saveDocumentAs:">id</string>
-						<string key="saveDocumentTo:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="printDocument:">
-							<string key="name">printDocument:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="revertDocumentToSaved:">
-							<string key="name">revertDocumentToSaved:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="runPageLayout:">
-							<string key="name">runPageLayout:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="saveDocument:">
-							<string key="name">saveDocument:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="saveDocumentAs:">
-							<string key="name">saveDocumentAs:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="saveDocumentTo:">
-							<string key="name">saveDocumentTo:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/NSDocument.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
-			<integer value="1070" key="NS.object.0"/>
-		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">

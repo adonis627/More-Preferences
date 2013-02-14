@@ -18,6 +18,7 @@ static NSDictionary *infoDictionary;
 
 @property (assign) IBOutlet NSButton *buttonRestoreLaunchpad;
 @property (assign) IBOutlet NSButton *buttonUninstallMSOffice;
+@property (assign) IBOutlet NSButton *buttonResetFinderOpenWithMenu;
 
 - (IBAction)executeButtonPressed:(id)sender;
 - (void)executeImpendingTasks:(id)sender;
@@ -26,9 +27,6 @@ static NSDictionary *infoDictionary;
 
 
 @implementation GBScriptingButtonController
-
-@synthesize buttonRestoreLaunchpad;
-@synthesize buttonUninstallMSOffice;
 
 
 + (void)initialize
@@ -134,7 +132,7 @@ static NSDictionary *infoDictionary;
 {
 	if (!_itemArray)
 	{
-		_itemArray = [[NSArray alloc] initWithObjects:self.buttonRestoreLaunchpad, self.buttonUninstallMSOffice, nil];
+		_itemArray = [[NSArray alloc] initWithObjects:self.buttonRestoreLaunchpad, self.buttonUninstallMSOffice, self.buttonResetFinderOpenWithMenu, nil];
 		GBDebugLog(@"%@ has %lu buttons\n", [self className], _itemArray.count);
 	}
 

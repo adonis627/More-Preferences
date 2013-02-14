@@ -10,8 +10,6 @@
 
 @implementation GBScriptingButton
 
-@synthesize bundleName		 = _bundleName;
-@synthesize scriptIdentifier = _scriptIdentifier;
 
 - (void)dealloc
 {

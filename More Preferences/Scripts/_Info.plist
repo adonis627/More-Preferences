@@ -22,5 +22,16 @@
 		<key>Description</key>
 		<string>Resetting Launchpad menus</string>
 	</dict>
+	<key>Reset Finder Open With Menu</key>
+	<dict>
+		<key>Associated Apps</key>
+		<array>
+			<string>com.apple.finder</string>
+		</array>
+		<key>Script</key>
+		<string>Reset Finder Open With Menu</string>
+		<key>Description</key>
+		<string>Reset Finder&apos;s Open With contextual menu</string>
+	</dict>
 </dict>
 </plist>
